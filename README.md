@@ -11,5 +11,5 @@ Tools include:
 
 In addition, I also changed the login to something like this:
 ```
-Usage: sh.php?login
+Usage: shell.php?akuganteng
 ```
