@@ -1,5 +1,5 @@
 # What's new?
-Shell IndoXploit shell developed by the IndoXploit team itself is a webshell interface and is slick. But here I recode the shell and change the appearance and just a few tools :)
+> Shell IndoXploit shell developed by the IndoXploit team itself is a webshell interface and is slick. But here I recode the shell and change the appearance and just a few tools :)
 
 Tools include:
 - [x] **Fakeroot**
@@ -9,7 +9,7 @@ Tools include:
 - [x] **Ransomware/Ransomweb**
 - [x] **Zone-H Submit**
 
-In addition, I also changed the login to something like this:
-```
-Usage: shell.php?akuganteng
+> In addition, I also changed the login to something like this:
+```powershell
+# Usage: shell.php?akuganteng
 ```
