@@ -9,7 +9,7 @@ Tools include:
 - [x] **Ransomware/Ransomweb**
 - [x] **Zone-H Submit**
 
-> In addition, I also changed the login to something like this:
+In addition, I also changed the login to something like this:
 ```powershell
 # Usage: shell.php?akuganteng
 ```
