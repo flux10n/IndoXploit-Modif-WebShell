@@ -8,3 +8,8 @@ Tools include:
 - [x] **Mass Deface**
 - [x] **Ransomware/Ransomweb**
 - [x] **Zone-H Submit**
+
+In addition, I also changed the login to something like this:
+```
+Usage: sh.php?login
+```
