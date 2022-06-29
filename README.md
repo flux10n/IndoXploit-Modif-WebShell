@@ -13,5 +13,3 @@ In addition, I also changed the login to something like this:
 ```powershell
 # Usage: shell.php?akuganteng
 ```
-
-akakskskksknajamsnsjsjsjskaksdddndjsjss
