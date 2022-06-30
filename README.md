@@ -1,15 +1,15 @@
-# What's new?
-> Shell IndoXploit shell developed by the IndoXploit team itself is a webshell interface and is slick. But here I recode the shell and change the appearance and just a few tools :)
+## IndoXploit-Shell
+```
+                
+                ___  __   __        ___           
+          |  | |__  |__) /__` |__| |__  |    |    
+          |/\| |___ |__) .__/ |  | |___ |___ |___ 
+                                       
+             
+                     IndoXploit Shell
+                 Tools recoded by flux10n
 
-Tools include:
-- [x] **Fakeroot**
-- [x] **cPanel Crack**
-- [x] **Mass Password Change**
-- [x] **Mass Deface**
-- [x] **Ransomware/Ransomweb**
-- [x] **Zone-H Submit**
+         [?] Usage login to shell: shell.php?login 
+                 Copyright © 2022 Flux10n
 
-In addition, I also changed the login to something like this:
-```powershell
-# Usage: shell.php?akuganteng
 ```
