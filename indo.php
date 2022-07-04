@@ -127,12 +127,12 @@ li {
 }
 
 .footer > a {
-    color: #00ff00;
+        color: #00ff00;
 }
 
 .footer > a:hover {
-   text-shadow: 0pt 0pt 0.99em lime, 0pt 0pt 0.99em lime;
-   color: #00ff00;
+        text-shadow: 0pt 0pt 0.99em lime, 0pt 0pt 0.99em lime;
+        color: #00ff00;
 }
 
 a {
