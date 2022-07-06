@@ -82,7 +82,7 @@ if(get_magic_quotes_gpc()) {
 table, th, td {border-collapse:collapse;font-family: Tahoma, Geneva, sans-serif;background: transparent;font-family: 'Iceberg';font-size: 13px;}
 input[type=text], input[type=password],input[type=submit] {background: transparent;color: #ffffff;border: 1px solid #ffffff;margin: 5px auto;padding-left: 5px;
 font-family: 'Abel';font-size: 13px;}
-textarea {border: 1px solid #ffffff;width: 99.5%;height: 400px;padding-left: 5px;margin: 10px auto;resize: none;background: transparent;color: #ffffff;font-family: 'Abel';font-size: 13px;}
+textarea {border: 1px solid #ffffff;width: 100%;height: 400px;padding-left: 5px;margin: 10px auto;resize: none;background: transparent;color: #ffffff;font-family: 'Abel';font-size: 13px;}
 select {background: transparent;color: #ffffff;border: 1px solid #ffffff;margin: 5px auto;padding-left: 5px;font-family: 'Abel';font-size: 13px;}
 .but {background: transparent;color: #ffffff;border: 1px solid #ffffff;margin: 5px auto;padding-left: 5px;font-family: 'Abel';font-size: 13px;}
 li a:hover{text-shadow: 0pt 0pt 0.99em gold, 0pt 0pt 0.99em gold;color: gold;text-decoration: underline;}
@@ -167,7 +167,7 @@ table, th, td {
 }
 
 .table_home, .th_home, .td_home {
-	border: 0.7px solid #ffffff;
+	border: 0.8px solid #ffffff;
 }
 
 .th_home {
@@ -216,7 +216,7 @@ input:focus, textarea:focus {
 
 textarea {
 	border: 1px solid #ffffff;
-	width: 99.5%;
+	width: 100%;
 	height: 400px;
 	padding-left: 5px;
 	margin: 10px auto;
