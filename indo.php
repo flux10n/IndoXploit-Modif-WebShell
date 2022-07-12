@@ -1,5 +1,5 @@
 <?php
-//hargai author dengan cara menggunakan script ini dan tidak merename nama pembuat atau mereuploadnya!!!
+# jangan dipake bre 🤓
 session_start();
 @error_reporting(0);
 @set_time_limit(0);
