@@ -14,4 +14,24 @@
 
 ```
 
+## Command
 
+- <b><i>Read File</i></b>
+```
+rf [filenane]
+rf /etc/passwd
+```
+
+- <b><i>Spawn File</i></b>
+```
+spawn webconsole
+spawn cgitelnet1
+spawn cgitelnet2
+spawn cgipy
+spawn soc
+spawn rans
+spawn adminer
+spawn LRE
+spawn fm
+phpinfo
+```
