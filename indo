@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+tehyuli () {
+echo "salah masuk mas"
+}
+tehyuli
