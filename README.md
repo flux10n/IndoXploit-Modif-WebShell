@@ -1,4 +1,4 @@
-## IndoXploit-Shell ejejeje
+## IndoXploit-Shell
 ```
                 
                 ___  __   __        ___           
