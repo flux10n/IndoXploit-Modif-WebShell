@@ -1,4 +1,4 @@
-## IndoXploit-Shell
+## IndoXploit-Shell ![Language](https://img.shields.io/badge/Language-PHP-blue.svg)
 ```
                 
                 ___  __   __        ___           
