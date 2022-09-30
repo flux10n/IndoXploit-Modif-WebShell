@@ -1,4 +1,4 @@
-## IndoXploit-Shell ![Language](https://img.shields.io/badge/Language-PHP-blue.svg)
+## IndoXploit-Shell 
 ```
                 
                 ___  __   __        ___           
@@ -24,15 +24,16 @@ rf /etc/passwd
 
 - <b><i>Spawn File</i></b>
 ```
-spawn webconsole
-spawn cgitelnet1
-spawn cgitelnet2
-spawn cgipy
-spawn soc
-spawn rans
-spawn adminer
-spawn LRE
-spawn fm
+spawn webconsole (execute command backdoor)
+spawn cgitelnet1 (cgitelnet shell 1)
+spawn cgitelnet2 (cgitelnet shell 2)
+spawn cgipy (cgi python)
+spawn soc (socket perl)
+spawn rans (ransomware)
+spawn adminer (adminer databese)
+spawn LRE (local root exploit)
+spawn fm (file manager)
+spawn acs (auto create shell)
 phpinfo
 ```
 
