@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Ohayo</title>
+<title>403 Mas</title>
 <meta name='author' content='Flux10n'>
 <meta charset="UTF-8">
 <link rel="icon" href="https://telegra.ph/file/4655dfa5720da906ead7e.jpg" type="image/x-icon">
