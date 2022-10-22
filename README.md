@@ -31,7 +31,8 @@ spawn adminer (adminer databese)
 spawn LRE (local root exploit)
 spawn fm (file manager)
 spawn acs (auto create shell)
-phpinfo (file system info)
+spawn phpinfo (file system info)
+spawn func (getewe)
 ```
 
 - <b><i>Jumping</i></b>
