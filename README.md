@@ -84,3 +84,5 @@ Example:
 rvr bp 1337 perl
 ```
 
+## Command prompt (CMD)
+[https://github.com/flux10n/command-injection](https://github.com/flux10n/command-injection)
