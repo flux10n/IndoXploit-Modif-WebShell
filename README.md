@@ -57,7 +57,7 @@ spawn LRE (local root exploit)
 spawn fm (file manager)
 spawn acs (auto create shell)
 spawn phpinfo (file system info)
-spawn func (getewe)
+spawn func (php version)
 ```
 
 - <b><i>Jumping</i></b>
